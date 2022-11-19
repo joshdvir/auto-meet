@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  auto-meet:
+    build: .
+    volumes:
+      - ".:/app"
+    command: sleep infinity
